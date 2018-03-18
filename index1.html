@@ -1,0 +1,140 @@
+<html>
+<head>
+<style>
+.mySlides {display:none;}
+body
+{
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+.a{
+font-size:45px;
+text-align:center;
+font-family: 'Luckiest Guy';
+color:#34495e;
+text-decoration:none;
+}
+.a:hover{
+color:#ecf0f1;
+background-color:#b33939;
+}
+.b{
+font-size:25px;
+color:#f7f1e3;
+text-align:justify;
+background-color: #b33939;
+}
+
+.column {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+
+.column img {
+  max-width: 100%;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+.d{
+  padding: 10px 10px 10px 10px;
+}
+h1{
+  font-family:'Luckiest Guy';
+}
+h2{
+  font-family: 'Luckiest Guy';
+}
+
+p{
+  font-family: 'Gochi Hand';
+  font-size: 27px;
+  color:#34495e;
+}
+.footer{
+  font-style: none;
+  color:34495e;
+  font-family:Luckiest Guy;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+</style>
+<title>Home</title>
+<link href="image/h1.jpg" rel="icon">
+</head>
+<body background="http://www.blackhawk.aero/wp-content/uploads/World-Background.jpg" style="background-size:100%100%">
+  
+<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gloria+Hallelujah|Gochi+Hand|Luckiest+Guy|Nanum+Brush+Script" rel="stylesheet">
+
+<table height="100" width="90%" align="center" border="0" cellpadding="5">
+<tr>
+<td align="center" class="a"><a href="index1.html" class="a">Home</a></td>
+<td align="center" class="a"><a href="edu1.html" class="a">Educate Yourself</a></td>
+<td align="center" class="a"><a href="events1.html" class="a">Events</a></td>
+<td align="center" class="a"><a href="connect1.html" class="a">Connect</a></td>
+</table>
+<table height="175" width="90%" align="center" border="0">
+<tr>
+<td><center><img src="https://i.imgur.com/wvVEW9L.png" height="200px" width="50%"></center></td>
+</tr>
+</table>
+<div class="row">
+  <div class="column">
+    <h1 class="w3-center">Comfort is The Key to a Happy Life</h1>
+    <div class="w3-content w3-section">
+      <img class="mySlides" src="http://girltalkhq.com/wp-content/uploads/2013/02/SierreLeone-1024x604.jpg">
+      <img class="mySlides" src="http://girltalkhq.com/wp-content/uploads/2013/02/Cambodia-1024x604.jpg">
+      <img class="mySlides" src="http://girltalkhq.com/wp-content/uploads/2013/02/India-1024x604.jpg">
+      <img class="mySlides" src="http://humanitarian.worldconcern.org/wp-content/uploads/2015/09/high-school-scholarship-recipients-825x510.jpg">
+      <img class="mySlides" src="http://humanitarian.worldconcern.org/wp-content/uploads/2013/10/girls-goats-haiti1.jpg">
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="d">
+    <h2>Who Are We?</h2><p>Our goal, as an organization, is to spread awareness about an overlooked problem today - the violation of a very basic right, as a woman - the inaccessibility to sanitary toiletries in underdeveloped countries. These are war - torn countries facing countless other threats, in the form of starvation and poverty. We are three high school students with a vision of a world where women feel comfortable and respected. We plan to make this vision a reality by helping companies sponsor this change in third world countries.
+    </p>
+    <h2>Why we help make a difference?</h2><p>By having active junior ambassadors in our program, we educate young people about our cause and why it is important to fight for it with us. By educating youngsters we, as an organization and community, are able to raise our future generation with the proper fundamnetals to eliminate such problems like this inaccesability of toiletries in third world coutnries. Our cause is 100% run by students and has adults supervision, but the fact that we are students who want to make a change starting from a young age, is what makes us differnet from other organizations.</p>
+    <h2>We Want Our Chapter to:</h2><p>
+  (1) make their peers aware of this problem<br>
+  (2) hold fundraisers to raise money<br>
+  (3) send products to those in need.
+</p>
+</div>
+  </div>
+</div>
+
+<br><br>
+<div class="footer">
+<center><footer>
+<a href="index1.html" class="c">Home</a> | <a href="events1.html" class="c">Events</a> | <a href="edu1.html" class="c">Educate Yourself</a> | <a href="connect1.html" class="c">Connect</a>
+</footer>
+</center>
+</div>
+
+
+
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "inline";
+        setTimeout(carousel, 2500); // Change image every 2 seconds
+    }
+  </script>
+
+</body>
+</html>
+
